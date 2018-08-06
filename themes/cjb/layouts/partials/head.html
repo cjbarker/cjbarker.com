@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="google-site-verification" content="wj_Sv0hkTZoloi7J6nYrUl5vrIoHEMtqX1ZhlR3fdu0" />
+<link rel="shortcut icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon">
+<link rel="icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon">
+
+<title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
+
+<meta name="description" content="CJ Barker - Husband, Father, Software Craftsman, Drummer and a gorilla in a man suit trying to make his way in life." />
+
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+      <meta name="robots" content="index, follow">
+    {{ else }}
+      <meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+<meta name="author" content="CJ Barker" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--[if lte IE 8]><script src="{{ "js/ie/html5shiv.js" | absURL }}"></script><![endif]-->
+<link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
+<!--[if lte IE 8]><link rel="stylesheet" href="{{ "css/ie8.css" | absURL }}" /><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" href="{{ "css/ie9.css" | absURL }}" /><![endif]-->

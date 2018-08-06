@@ -1,0 +1,18 @@
+baseURL = "https://cjbarker.com/"
+languageCode = "en-us"
+title = "CJ Barker"
+theme = "cjb"
+
+DefaultContentLanguage = "en"
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[params]
+  favicon = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/GoHugoIO"
+  instagram = ""
+  youtube = ""
+  github = ""
+  linkedin = ""
