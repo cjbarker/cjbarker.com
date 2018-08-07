@@ -1,1 +1,50 @@
-Single page - need to customize
+<!DOCTYPE html>
+<!--
+    Spectral by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+<head> {{ partial "head.html" . }} </head>
+
+<body class="landing">
+
+  <div id="page-wrapper">
+    {{ block "menu" . }}{{partial "menu.html" . }}{{ end }} 
+
+    <article id="main">
+        <header>
+          {{ .Scratch.Set "pageTitle" "Generic Title" }}
+          {{ .Scratch.Set "pageHeader" "Generic Header" }}
+
+          {{ if eq .URL "/about/" }}
+            {{ .Scratch.Set "pageTitle" "About" }}
+            {{ .Scratch.Set "pageHeader" "Husband, Father, Technologiest" }}
+          {{ end }}
+
+          {{ if eq .URL "/music/" }}
+            {{ .Scratch.Set "pageTitle" "Music" }}
+            {{ .Scratch.Set "pageHeader" "Drums, Percussion, Samples, Backing Vocals" }}
+          {{ end }}
+
+          <h2>{{ .Scratch.Get "pageTitle" }} </h2>
+          <p>{{ .Scratch.Get "pageHeader" }} </p>
+        </header>
+
+        <section class="wrapper style5">
+
+            <div class="inner">
+              <h3>{{ .Title }}</h3>
+              <div id="content">
+                {{ .Content }}
+              </div>
+            </div>
+        </section>
+</article>
+
+  </div>
+
+  {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+  {{ block "scripts" . }}{{ partial "scripts.html" . }}{{ end }}
+</body>
+</html>
