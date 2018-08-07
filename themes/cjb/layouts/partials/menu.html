@@ -9,7 +9,9 @@
                             <li><a href="#">Blog</a></li> 
                             <li><a href="#">Tech</a></li> 
                             <li><a href="./music">Music</a></li> 
-                            <li><a href="https://www.instagram.com/1.21.gigawatts">Photography</a></li> 
+                            {{with .Site.Params.instagram}}
+                            <li><a href="{{.}}">Photography</a></li> 
+                            {{end}}
                         </ul> 
                     </div> 
                 </li> 

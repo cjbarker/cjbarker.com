@@ -3,5 +3,7 @@
 <script src="{{ "js/jquery.scrolly.min.js" | absURL }}"></script>
 <script src="{{ "js/skel.min.js" | absURL }}"></script>
 <script src="{{ "js/util.js" | absURL }}"></script>
-<!--[if lte IE 8]><script src="{{ "js/ie/respond.min.js" | absURL }}"></script><![endif]-->
-<script src="{{ " js/main.js" | absURL }}"></script>
+{{ "<!--[if lte IE 8]>" | safeHTML }}
+  <script src="{{ "js/ie/respond.min.js" | absURL }}"></script>
+{{ "<![endif]-->" | safeHTML }}
+<script src="{{ "js/main.js" | absURL }}"></script>
