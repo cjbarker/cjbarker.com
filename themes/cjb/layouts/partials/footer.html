@@ -4,6 +4,10 @@
             <li><a href="{{.}}" class="icon fa-soundcloud"><span class="label">SoundCloud</span></a></li> 
         {{end}}
 
+        {{with .Site.Params.gitlab}}
+            <li><a href="{{.}}" class="icon fa-gitlab"><span class="label">GitLab</span></a></li> 
+        {{end}}
+
         {{with .Site.Params.github}}
             <li><a href="{{.}}" class="icon fa-github"><span class="label">GitHub</span></a></li>
         {{end}}
