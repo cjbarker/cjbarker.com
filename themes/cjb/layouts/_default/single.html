@@ -14,27 +14,13 @@
 
     <article id="main">
         <header>
-          {{ .Scratch.Set "pageTitle" "Generic Title" }}
-          {{ .Scratch.Set "pageHeader" "Generic Header" }}
-
-          {{ if eq .URL "/about/" }}
-            {{ .Scratch.Set "pageTitle" "About" }}
-            {{ .Scratch.Set "pageHeader" "Husband, Father, Technologiest" }}
-          {{ end }}
-
-          {{ if eq .URL "/music/" }}
-            {{ .Scratch.Set "pageTitle" "Music" }}
-            {{ .Scratch.Set "pageHeader" "Drums, Percussion, Samples, Backing Vocals" }}
-          {{ end }}
-
-          <h2>{{ .Scratch.Get "pageTitle" }} </h2>
-          <p>{{ .Scratch.Get "pageHeader" }} </p>
+          <h2>{{ .Title }}</h2>
+          <p>{{ .Description }}</p>
         </header>
 
         <section class="wrapper style5">
 
             <div class="inner">
-              <h3>{{ .Title }}</h3>
               <div id="content">
                 {{ .Content }}
               </div>
