@@ -1,9 +1,12 @@
 +++
 type = "single"
-title = "Bio, Sample Tracks, Live Performance"
-description = "CJ Barker is a husband, father, technologist"
+title = "Music"
+subtitle = "Drums, Percussion, Samples, Backing Vocals"
+description = "Drums, Percussion, Samples, Backing Vocals"
 tags = ["music", "drummer", "vocalist", "art"]
 +++
+
+### Bio, Sample Tracks, Live Performance ###
 
 As a drummer, I have been fortunate enough to play and collaborate with some amazing musicians. Whether it's tracking an album, filling in for a session, or eating baloney on hand while on tour - I have been through a couple rodeos.
 
@@ -16,5 +19,3 @@ Below you can find tracks from a few artists that I've had the pleasure of colla
 ### Listen ###
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/304550669&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
-### Watch ###
-TBD
