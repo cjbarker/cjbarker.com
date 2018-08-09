@@ -8,6 +8,8 @@ tags = ["music", "drummer", "vocalist", "art"]
 
 ### Bio, Sample Tracks, Live Performance ###
 
+<img style="float: right; padding: 8px;" src="/cj_drumming_dtx.jpg" alt="CJ drumming in Dallas - date unknown" />
+
 As a drummer, I have been fortunate enough to play and collaborate with some amazing musicians. Whether it's tracking an album, filling in for a session, or eating baloney on hand while on tour - I have been through a couple rodeos.
 
 I've toured regionally and nationally, licensed music to ABC, CNBC & MTV, played [SXSW Showcase](https://www.sxsw.com/festivals/music/) 3x, performed live with Robert Pollard of [Guided By Voices](https://www.guidedbyvoices.com/), and covered a wide gamut of styles: rock, punk, pop, classical, folk & country.  Hell, I even recorded drums on the Beatles white album for a bachelor party.  
