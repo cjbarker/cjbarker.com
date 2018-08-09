@@ -1,1 +1,36 @@
-404 page - need to customize
+<!DOCTYPE html>
+<!--
+    Spectral by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+<head> {{ partial "head.html" . }} </head>
+
+<body class="landing">
+
+  <div id="page-wrapper">
+    {{ block "menu" . }}{{partial "menu.html" . }}{{ end }} 
+
+    <article id="main">
+        <header>
+          <h2>404</h2>
+          <p>Page Not Found</p>
+        </header>
+
+        <section class="wrapper style5">
+
+            <div class="inner">
+              <div id="content">
+                {{ partial "404.html" . }}
+              </div>
+            </div>
+        </section>
+</article>
+
+  </div>
+
+  {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+  {{ block "scripts" . }}{{ partial "scripts.html" . }}{{ end }}
+</body>
+</html>
