@@ -8,8 +8,7 @@ tags = ["about", "father", "husband", "who"]
 
 ### Who is CJ Barker? ###
 
-<img style="float: right; padding: 8px;" src="/lego_cj.jpg" alt="Lego (non-action) figure CJ" />
-
+<img style="float: right; margin: 8px; border-radius: 8px;"  src="/lego_cj.jpg" alt="Lego (non-action) figure CJ" />
 First and foremost, CJ is a husband and father. 
 
 He is also a technologist, software developer/architect,
@@ -19,4 +18,3 @@ I do my best to put my family first while having fun in the workplace and out. O
 on [Twitter @cjbarkbark](https://twitter.com/cjbarkbark) or attempt to collect my thoughts and write.
 
 If I am not hanging with my family I spend most of free time reading, playing music, skiing poorly, hiking/camping, or smoothering my dogs with love while the cat continues to ignore me.
-
