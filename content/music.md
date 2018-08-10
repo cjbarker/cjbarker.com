@@ -8,6 +8,10 @@ tags = ["music", "drummer", "vocalist", "art"]
 
 ### Bio, Sample Tracks, Live Performance ###
 
+<div align="center">
+    <h4><a href="#watch">Watch</a> | <a href="#listen">Listen</a><h4>
+</div>
+
 <img style="width: 100%; height: auto; float: right; margin: 8px; border-radius: 8px;"  src="/cj_drumming_dtx.jpg" alt="CJ drumming in Dallas - date unknown" />
 
 As a drummer, I have been fortunate enough to play and collaborate with some amazing musicians. Whether it's tracking an album, filling in for a session, or eating baloney on hand while on tour - I have been through a couple rodeos.
@@ -18,6 +22,8 @@ I have a wide variety of percussion and drum gear to meet the soundscape for wha
 
 Below you can find tracks from a few artists that I've had the pleasure of collaborating and contributing with. If you'd like to hear more check out my [SoundCloud.](https://soundcloud.com/cjbarkbark)
 
-### Listen ###
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/304550669&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+### <a name="watch">Watch</a> ###
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLweL0aK1SxwVhwvnzEJ4RKzIQ7nxJ24wb" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+### <a name="listen">Listen</a> ###
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/304550669&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
