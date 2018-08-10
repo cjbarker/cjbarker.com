@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/cjbarker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cjbarker.com
+  * I am cjbarker (https://keybase.io/cjbarker) on keybase.
+  * I have a public key ASCJxGot_mr1sA9tplz9HQupWPuWrZDKaR2NaqOa1G1hEAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120002ca0ee5552e605c527defc46cd645bd4b61b05e4ce08c237dac7449a0d813e0a",
+      "host": "keybase.io",
+      "kid": "012089c46a2dfe6af5b00f6da65cfd1d0ba958fb96ad90ca691d8d6aa39ad46d61100a",
+      "uid": "3d2f9eaf750aadfe25361b558568b719",
+      "username": "cjbarker"
+    },
+    "merkle_root": {
+      "ctime": 1533918418,
+      "hash": "95570a07dcbf1ec4e6588319e924289ad24250480092d99337e90fc14c887bc2856592b580f8b27f0305b5fe896a8beb36b522eae7d576fcc0d5e26e68f4f8da",
+      "hash_meta": "98756063d9d3bfff5f1db2775113c338d7b45f30be15f0cac43a9aceeac274f7",
+      "seqno": 3438912
+    },
+    "service": {
+      "entropy": "H6suJtGomDrHk5PquK8h1g8e",
+      "hostname": "cjbarker.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.0"
+  },
+  "ctime": 1533918434,
+  "expire_in": 504576000,
+  "prev": "198b20d592c5e897968b5d92d47d0eee0d0bc86c853619a41718518470e03fe3",
+  "seqno": 25,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgicRqLf5q9bAPbaZc/R0LqVj7lq2QymkdjWqjmtRtYRAKp3BheWxvYWTESpcCGcQgGYsg1ZLF6JeWi12S1H0O7g0LyGyFNhmkFxhRhHDgP+PEIHdhNtT6uAwZ/yMVl/7V7M1rw811VdUrV9cmXr/db+R1AgHCo3NpZ8RAv0qPojG89eYKU1zCDDdtRKIjc9cCn710MOS5cy9aDu72Gq/FC84eolBPpv58+aAnWjf+Q3Xqcjlb5cL41SI1A6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHKbCwS+0BWD4VeZ2/A4cIRpkaBtGv7w8KWNdMnYbVc+o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cjbarker
+
+==================================================================
