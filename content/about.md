@@ -8,7 +8,8 @@ tags = ["about", "father", "husband", "who"]
 
 ### Who is CJ Barker? ###
 
-<img style="float: right; margin: 8px; border-radius: 8px;"  src="/lego_cj.jpg" alt="Lego (non-action) figure CJ" />
+<img style="width: auto; height: 100%; float: right; margin: 8px; border-radius: 8px;"  src="/lego_cj.jpg" alt="Lego (non-action) figure CJ" width="350" />
+
 First and foremost, CJ is a husband and father. 
 
 He is also a technologist, software developer/architect,

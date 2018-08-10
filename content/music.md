@@ -8,7 +8,7 @@ tags = ["music", "drummer", "vocalist", "art"]
 
 ### Bio, Sample Tracks, Live Performance ###
 
-<img style="float: right; margin: 8px; border-radius: 8px;"  src="/cj_drumming_dtx.jpg" alt="CJ drumming in Dallas - date unknown" />
+<img style="width: 100%; height: auto; float: right; margin: 8px; border-radius: 8px;"  src="/cj_drumming_dtx.jpg" alt="CJ drumming in Dallas - date unknown" />
 
 As a drummer, I have been fortunate enough to play and collaborate with some amazing musicians. Whether it's tracking an album, filling in for a session, or eating baloney on hand while on tour - I have been through a couple rodeos.
 
