@@ -16,12 +16,20 @@
         <header>
           <h2>{{ .Title }}</h2>
           <p>{{ .Description }}</p>
+
+          {{ if (eq .Section "blog") }}
+          <p>{{ .Date.Format "January 2, 2006" }}</p>
+          {{ end }}
         </header>
 
         <section class="wrapper style5">
 
             <div class="inner">
               <div id="content">
+                {{ if (eq .Section "blog") }}
+                <p><em>Posted: {{ .Date.Format "January 2, 2006" }}</em></p>
+                {{ end }}
+
                 {{ .Content }}
               </div>
             </div>
