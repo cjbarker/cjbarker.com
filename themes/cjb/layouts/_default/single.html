@@ -31,7 +31,13 @@
                 {{ end }}
 
                 {{ .Content }}
+
+                {{ if (eq .Section "blog") }}
+                {{ block "blog_footer" . }}{{ partial "blog_footer.html" . }}{{ end }}
+                {{ end }}
+
               </div>
+
             </div>
         </section>
 </article>
