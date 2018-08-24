@@ -26,9 +26,8 @@
                 <ul>
   {{ range (where .Data.Pages "Section" "!=" "") }}
   <li>
-    <a href="{{ .URL }}">
-    <span class="date">{{ .Date.Format "2006 January 2" }} - </span>
-    {{ .Title }}</a>
+    <span class="date">{{ .Date.Format "2006 January 2" }}: </span>
+    <a href="{{ .URL }}">{{ .Title }} {{ .Description }}</a>
   </li>
   {{ end }}
 </ul>
