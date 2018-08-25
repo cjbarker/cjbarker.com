@@ -13,7 +13,7 @@ CJ is a T-Shaped software engineer and manager with a wide breadth &amp; depth i
 
 As a software executive in a leadership position, CJ  still likes to roll up his sleeves and contribute directly to software systems (ex: development, architecture, code reviews, etc.). He enjoys driving technology solutions that meet or exceed the businesses requirements/needs. CJ brings passion, humor, and a drive to get things done. **Perfection is the enemy of good enough**.
 
-I have worn a ot of different hats over the years.  My experience ranges from developing commercial security software to site reliablity engineering for a massive media company.  You can learn more on [LinkedIn](https://www.linkedin.com/in/cjbarkbark/).
+I have worn a ot of different hats over the years.  My experience ranges from developing commercial security software to site reliablity engineering for a massive media company.  You can learn more on [**LinkedIn**](https://www.linkedin.com/in/cjbarkbark/).
 
 * Cloud Computing integration across AWS and GCP – IaaS, PaaS, DBaaS and FaaS
 * Java, Python, BASH, JavaScript, Go, C/C++, PHP, SQL, XML, HTML
