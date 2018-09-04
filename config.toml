@@ -4,7 +4,7 @@ title = "CJ Barker"
 theme = "cjb"
 
 DefaultContentLanguage = "en"
-googleAnalytics = ""
+googleAnalytics = "UA-121284024-1"
 enableRobotsTXT = true
 
 [params]
