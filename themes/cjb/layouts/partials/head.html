@@ -7,12 +7,7 @@
 
 <meta name="description" content="CJ Barker - Husband, Father, Software Craftsman, Drummer and a gorilla in a man suit trying to make his way in life." />
 
-{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
 <meta name="robots" content="index, follow">
-{{ else }}
-<meta name="robots" content="noindex, nofollow">
-{{ end }}
-
 <meta name="author" content="CJ Barker" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 {{ "<!--[if lte IE 8]>" | safeHTML }}
