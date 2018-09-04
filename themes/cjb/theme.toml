@@ -3,12 +3,12 @@
 
 name = "Cjb"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = "https://gitlab.com/cjbarker/cjbarker.com/blob/master/themes/cjb/LICENSE.md"
 description = ""
-homepage = "http://siteforthistheme.com/"
+homepage = "https://cjbarker.com/"
 tags = ["blogs", "personal"]
 features = ["blog", ""]
-min_version = 0.15
+min_version = 0.20
 
 [author]
   name = "CJ Barker"
