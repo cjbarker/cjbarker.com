@@ -6,6 +6,7 @@ theme = "cjb"
 DefaultContentLanguage = "en"
 googleAnalytics = "UA-121284024-1"
 enableRobotsTXT = true
+pygmentsUseClassic=true
 
 [params]
   favicon = ""
