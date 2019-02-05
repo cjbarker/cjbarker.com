@@ -6,7 +6,7 @@ type = "blog"
 layout = "single"
 +++
 
-<img src="/podcast-logo.jpg" style="float: right; margin-right:8px; height: 100%; width: auto;" alt="Podcast Logo with Headphones on it" />
+<img src="/blog/podcast-logo.jpg" style="float: right; margin-right:8px; height: 100%; width: auto;" alt="Podcast Logo with Headphones on it" />
 
 Every so often I get an inquiry from colleagues, friends, or family about what I am
 listening to.  Although it does rotate and evolve, I do have a relatively steady listening diet of podcasts.  
@@ -18,6 +18,8 @@ In no particular order other than general categories
 
 ### InfoSec
 * [Darknet Diaries](https://darknetdiaries.com/): Fascinating true stories from the dark side of the Internet
+* [Hackable?](https://hackablepodcast.com): Hear and learn how various domains are hackable from drone denial of
+    service to cloning of RF signals for auto theft.
 * [Security Now](https://www.grc.com/SecurityNow.htm): Steve Gibson covers the latest infosec news while exploring and going deep into various technologies, protocols, designs and more
 * [Defensive Security Podcast](https://defensivesecurity.org/): Cyber security podcast covering the latest infosec news on breaches and strategies for defense.
 
