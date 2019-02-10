@@ -6,19 +6,31 @@
 rm -rf public/
 hugo
 
-# todo check public exists
+if [ ! -d "public" ]; then
+    >&2 echo "public directory does not exist - unable to deploy"
+    exit 2
+fi
 
 # Enable public readable bucket
 gsutil defacl ch -u AllUsers:R gs://cjbarker.com
-# todo add check to last error code and output
+if [ $? -ne 0 ]; then
+    >&2 echo "Unable to set public readable bucket"
+    exit 3
+fi
 
 # Copy/sync files
 cd public/
 gsutil -m rsync -r -d . gs://cjbarker.com
-# todo add check to last error code and output
+if [ $? -ne 0 ]; then
+    >&2 echo "Unable to copy files from public to bucket"
+    exit 4
+fi
 
 # Set index & 404 pages
 gsutil web set -m index.html -e 404.html gs://cjbarker.com
-# todo add check to last error code and output
+if [ $? -ne 0 ]; then
+    >&2 echo "Unable to set index & 404 web pages"
+    exit 5
+fi
 
-exit $?
+exit 0

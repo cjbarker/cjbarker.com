@@ -18,7 +18,7 @@ On Tuesday, September 13, 2016 Brian Krebs’ website, KrebsOnSecurity, was hit 
 
 The attack methods deployed leveraged hundreds of thousands Internet of Things (IoT) devices that flooded the target, Krebs’ website, with various forms of network requests. The IoT devices’ requests exhausted connections to the target website preventing server resources from being able to handle any requests of malicious or benign intent.
 
-The Mirai command ‘n control server (CNC) acquires bots via telnet, which is found enabled and exposed as a vulnerability in copious IoT devices running various forms of embedded Linux. Combined with a default hardware manufacturer login account, Mirai can quickly gain shell access on the device (bot). The Mirai CNC server is fed various commands through an admin interface for executing a Denial of Service (DoS) attack on the the comprised device’s outbound network.
+The Mirai command ‘n control server (CNC) acquires bots via telnet, which is found enabled and exposed as a vulnerability in copious IoT devices running various forms of embedded Linux. Combined with a default hardware manufacturer login account, Mirai can quickly gain shell access on the device (bot). The Mirai CNC server is fed various commands through an admin interface for executing a Denial of Service (DoS) attack on the comprised device’s outbound network.
 
 Additionally, the CNC harvests device IP addresses and meta-data acquired via bot scanning and discovery of a given devices. Once compromised the device will “phone home” to the CNC. Meanwhile the device continues to appear to operate normally while it is leveraged by the CNC server within a massive botnet composed of hundreds of thousands of IoT devices.
 
@@ -60,7 +60,7 @@ The [**api.go**](https://github.com/cjbarker/Mirai-Source-Code/blob/master/mirai
 
 It does enforce some rules/bounds checking. For example, CNC users are allocated N number of maximum bots they can utilized in a given attack. Unless you’re an administrator you’re bound to a limit on the number of bots you are allocated.
 
-Additionally, it will check whether or not the given target has been whitelisted within the database.
+Additionally, it will check whether or not the given target has been white listed within the database.
 
 Lastly, the logic will verify the bots state. If the bot is already in use it will be removed/ignored from the attack request.
 
@@ -107,7 +107,7 @@ Once the shell access is established the bot will verify its login to the recent
 
 #### Killer
 
-The [**killer.c**](https://github.com/cjbarker/Mirai-Source-Code/blob/master/mirai/bot/killer.c) provides functionality to kill various processes running on the bot (e.g. telnet, ssh, etc.).
+The [**killer.c**](https://github.com/cjbarker/Mirai-Source-Code/blob/master/mirai/bot/killer.c) provides functionality to kill various processes running on the bot (e.g. Telnet, SSH, etc.).
 
 #### Main
 
@@ -126,6 +126,6 @@ A week after the Krebs DDoS a similar attack at [1 Tbps was launched on a French
 
 I am not sure we can prevent such massive attacks. Potentially helpful could be regulatory influence in the government requiring manufactures to adhere to a security standard and/or keeping firmware up-to-date for N years. This could potentially be similar to how the auto industry works with guarantee automobile manufactured parts up to a certain length of time.
 
-At the very least if your IoT device supports password changes or administrative account disablement then do it.
+At the very least, if your IoT device supports password changes or administrative account disablement then do it.
 
 Good luck, have fun and be safe.

@@ -9,9 +9,9 @@ layout = "single"
 <img src="/blog/podcast-logo.jpg" style="float: right; margin-right:8px; height: 100%; width: auto;" alt="Podcast Logo with Headphones on it" />
 
 Every so often I get an inquiry from colleagues, friends, or family about what I am
-listening to.  Although it does rotate and evolve, I do have a relatively steady listening diet of podcasts.  
+listening to.  Although it does rotate and evolve, I do have a relatively steady listening diet of podcasts. 
 
-By no means is this a comprehensive list of what's out there, but it does provide a good foundational mix for me in technology, business, infosec and more.  Let me know what recommendations you have.  
+By no means is this a comprehensive list of what's out there, but it does provide a good foundational mix for me in technology, business, infosec and more.  Let me know what recommendations you have. 
 
 ## Recommendations
 In no particular order other than general categories
@@ -37,14 +37,14 @@ In no particular order other than general categories
 * [A16z](https://a16z.com/podcasts/): Andreessen Horowtiz discusses tech, culture trends, news and the future
 * [Techstuff](https://tunein.com/podcasts/Technology-Podcasts/TechStuff-p330967/): Various technologies, company
     origins, and more discussed in depth of the "how"
-* [Note to Self](https://www.wnycstudios.org/shows/notetoself): Manoush Zomorodi questions and challenges our relience on technology, the value-add it provides, and our privacy - for the better.
+* [Note to Self](https://www.wnycstudios.org/shows/notetoself): Manoush Zomorodi questions and challenges our reliance on technology, the value-add it provides, and our privacy - for the better.
 
 ### Mind Expanding aka Brain Food
 * [Hidden Brain](https://www.npr.org/series/423302056/hidden-brain): Shankar Vedantam helps curious people understand the world - and themselves
 * [Crazy Genius](https://www.theatlantic.com/podcasts/crazygenius/): Big questions and provocative conclusions about technology and culture
 * [Ted Talks Daily](https://radiopublic.com/ted-talks-daily-69aZB6): Talks range from how to reduce poverty to bracing for the upcoming Singularity.  Rarely does it disappoint.
 * [Make Me Smart](https://www.marketplace.org/topics/make-me-smart): It rose from NPR's MarketPlace. "B/c none of us is as smart as all of us"
-* [Stuff You Should Know](https://www.stuffyoushouldknow.com/podcasts): Fasinating topics that take you from the
+* [Stuff You Should Know](https://www.stuffyoushouldknow.com/podcasts): Fascinating topics that take you from the
     surface of the information into the depths of knowledge
 
 ### Drumming / Percussion
