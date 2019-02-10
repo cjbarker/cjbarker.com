@@ -12,7 +12,7 @@ layout = "single"
 
 Scanning for Secrets
 ---
-Shifting security left in one's software development lifecycle towards a more comprehensive DevSecOps approach can greatly assist in reducing risks and catching potential issues early and often.  Part of this evolution includes detecting sensitive data such as passwords in files like source code.  
+Shifting security left in one's software development life cycle towards a more comprehensive DevSecOps approach can greatly assist in reducing risks and catching potential issues early and often.  Part of this evolution includes detecting sensitive data such as passwords in files like source code.  
 
 There are two general techniques for detecting secrets within source code or any text file for that matter - regular
 expression (deterministic) and entropy based scanning.  Regular expressions work relatively well if you know what you're
@@ -29,7 +29,7 @@ some basic information theory.
 
 In the context of secrets and entropy, we are essentially focusing on the randomness of the characters for a given string.  The information entropy is a measurement of how much uncertainty or randomness there is in the source string. The more uncertainty the more information is contained in the string resulting in increased or higher entropy.  [Shannon Entropy](https://en.wiktionary.org/wiki/Shannon_entropy) is a great metric in information theory for measuring the entropy aka uncertainty of a string.
 
-I will create another post later to discuss how to apply and detect high uncertainty via Shannon entropy. For now, we are focused on generating high entropy strings in order to evaluate and test our secret detection tool(s) of your chosing.
+I will create another post later to discuss how to apply and detect high uncertainty via Shannon entropy. For now, we are focused on generating high entropy strings in order to evaluate and test our secret detection tool(s) of your choosing.
 
 The Linux operating system provides us some built-in commands that work relatively well for generating high entropy
 strings.  In fact, we can do so in a single line of commands for execution:
@@ -48,7 +48,7 @@ Break It Down
 tr -dc 'A-Za-z0-9!"#$%&'\''()*+,-./:;<=>?@[\]^_`{|}~'
 ```
 
-**Cmd 1) [tr](https://linux.die.net/man/1/tr)** is a utility command that translates characters. In other words it copies the standard input to standard output with substition of strings if applicable. In this case we're deleting every character that comes in as input except for those provided, which is essentially our alaphanumeric and special characters.
+**Cmd 1) [tr](https://linux.die.net/man/1/tr)** is a utility command that translates characters. In other words it copies the standard input to standard output with y substation of strings if applicable. In this case we're deleting every character that comes in as input except for those provided, which is essentially our alphanumeric and special characters.
 
 ```
 /udev/urandom
@@ -70,7 +70,8 @@ echo
 ```
 LC_ALL=C
 ```
-**Cmd 5) [LC_ALL=C](https://linux.die.net/man/3/setlocale)** In BASH the cmd output may result in an "illegal byte sequence" error. We can resolve this using the environment
+**Cmd 5) [LC_ALL=C](https://linux.die.net/man/3/setlocale)** In BASH the cmd output may result in an "illegal byte
+sequence" error. We can resolve this using the environment
 variable: 'LC_ALL=C'.  This overrides the localization settings and forces the output to use the C locale, which characters are single bytes of the ASCII charset.
 
 Tying It All Together
@@ -103,7 +104,7 @@ NBR_PSWD=1
 function usage {
     echo "Usage: $1 [nbr-passwords] [max-pswd-length]"
     echo "-nbr-password     number of passwords to generate"
-    echo "-max-pswd-length  maxinum string length of characters in password"
+    echo "-max-pswd-length  maximum string length of characters in password"
 }
 
 function is_nbr {
