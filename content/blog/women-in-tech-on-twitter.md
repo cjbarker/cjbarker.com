@@ -18,7 +18,7 @@ to cover several domains such as: software engineering, software architecture, c
 evangelism, conference coordinators, information security (pentesting, vulnerability research, malware, reverse eng., app
 sec, etc.), journalist, and tech. entrepreneurs. It is a massive industry with a wealth of opportunities and amazing contributors including, but not limited, to these diverse, talented, experienced, intelligent, and interesting individuals.  Broaden your horizons and learn something new.
 
-Consolidated via this **[Twitter List of Badass Women in Tech](https://twitter.com/cjbarkbark/lists/women-in-tech)** 
+Consolidated via this **[Twitter List of talented Women in Tech](https://twitter.com/cjbarkbark/lists/women-in-tech)** 
 
 Please share with me folks I missed or am/was unaware of in the Twitterverse
 **[@cjbarkbark](https://twitter.com/cjbarkbark)**
