@@ -9,7 +9,7 @@ tags = ["tech", "software", "management", "leadership"]
 
 <img style="width: 200; height: auto; float: right; margin: 8px; border-radius: 8px;"  src="/cj.png" alt="CJ Barker - headshot" />
 
-CJ is a T-Shaped software engineer and manager with a wide breadth &amp; depth in technology.  He values getting things done. He brings over 16 years of professional development, management and leadership. He enjoys building talented teams, software, and improving operation practices within the software development lifecycle. 
+CJ is a T-Shaped software engineer and manager with a wide breadth &amp; depth in technology.  He values getting things done. He brings over 16 years of professional development, management and leadership. He enjoys building talented teams, software, and improving operation practices within the software development lifecycle.
 
 As a software executive in a leadership position, CJ  still likes to roll up his sleeves and contribute directly to software systems (ex: development, architecture, code reviews, etc.). He enjoys driving technology solutions that meet or exceed the businesses requirements/needs. CJ brings passion, humor, and a drive to get things done. **Perfection is the enemy of good enough**.
 
