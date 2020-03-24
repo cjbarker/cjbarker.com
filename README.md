@@ -1,6 +1,6 @@
 # cjbarker.com
 
-Personal website via customize hugo theme 'cjb' for generating and serving http://cjbarker.com
+Personal website via customize [hugo](https://gohugo.io/getting-started/usage/) theme 'cjb' for generating and serving http://cjbarker.com
 
 ## Drafting Blog Article
 ```
