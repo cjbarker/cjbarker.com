@@ -8,6 +8,12 @@ googleAnalytics = "UA-121284024-1"
 enableRobotsTXT = true
 pygmentsUseClassic=true
 
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   favicon = ""
   description = "The last theme you'll ever need. Maybe."
