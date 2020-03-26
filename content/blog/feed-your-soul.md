@@ -10,7 +10,7 @@ layout = "single"
 
 It was my first week starting a new job at a new company. I was meeting with a wide variety of colleagues, partners, stakeholders and more.  Out of those numerous meetings one question stood out.
 
-### _What do you do to feed your soul?_
+### _What feeds your soul?_
 
 I was asked this question pointedly as our conversation was wrapping up.  Initially, my split second inner monologue was "Oh, shit! I'm working with some new age hippie." Taking a beat and trying to give the benefit of doubt it dawned on me, "wait, they're asking me what brings me joy in my life outside of work."  That was a candid, introspective, existential question that resonated with me.  Outside of the usual of family and friends have you truly asked yourself what matters most and brings you joy?
 
