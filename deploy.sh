@@ -20,7 +20,7 @@ fi
 
 # Copy/sync files
 cd public/
-gsutil -m rsync -r -d . gs://cjbarker.com
+gsutil -h "Cache-Control:public,max-age=3600" -m rsync -r -d . gs://cjbarker.com
 if [ $? -ne 0 ]; then
     >&2 echo "Unable to copy files from public to bucket"
     exit 4
