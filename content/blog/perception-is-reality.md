@@ -1,7 +1,7 @@
 +++
 title = "Perception Is Reality"
 description = "How will respond?"
-date = 2020-06-26T20:26:01-08:00
+date = 2020-06-26T19:26:01-08:00
 type = "blog"
 layout = "single"
 +++
@@ -20,3 +20,4 @@ How each of us responds is our own prerogative.  What's important is that regard
 
 How will you choose to show up and respond to your own reality or that perceived by others?
 
++++
