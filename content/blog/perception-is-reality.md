@@ -19,5 +19,3 @@ We are all presented with challenges.  How we choose to show up and respond to t
 How each of us responds is our own prerogative.  What's important is that regardless of the narrative we tell ourselves, inner monologue, or self-image we have ingrained, is that the perception of our peers/family/other, those we interact with, is what matters.  We can choose to build our own internal (distortion) reality, but the perception of others IS reality.
 
 How will you choose to show up and respond to your own reality or that perceived by others?
-
-+++
