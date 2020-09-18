@@ -2,6 +2,10 @@
 
 # Simple script to deploy hugo site to Google Cloud Platform - cloud storage
 
+# Fixes python/gsutil bug - https://github.com/GoogleCloudPlatform/gsutil/issues/961
+# Ensure brew install python@3.7
+export CLOUDSDK_PYTHON=/usr/local/opt/python@3.7/bin/python3
+
 # Clear and recreate site
 rm -rf public/
 hugo
