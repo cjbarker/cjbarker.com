@@ -27,7 +27,9 @@ fi
 
 # Copy/sync files
 cd public/
-gsutil -h "Cache-Control:public,max-age=3600" -m rsync -r -d . gs://cjbarker.com
+# Bug on parallel processing those -o flag
+# https://github.com/GoogleCloudPlatform/gsutil/issues/1100
+gsutil -o "GSUtil:parallel_process_count=1" -h "Cache-Control:public,max-age=3600" -m rsync -r -d . gs://cjbarker.com
 if [ $? -ne 0 ]; then
     >&2 echo "Unable to copy files from public to bucket"
     exit 4
