@@ -3,3 +3,4 @@ port*log
 public/
 photo-grid/
 .DS_Store
+.hugo_build.lock
