@@ -4,6 +4,7 @@ title = "CJ Barker"
 theme = "cjb"
 
 DefaultContentLanguage = "en"
+timeZone = "America/Tijuana"
 googleAnalytics = "UA-121284024-1"
 enableRobotsTXT = true
 pygmentsUseClassic=true

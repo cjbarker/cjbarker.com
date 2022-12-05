@@ -4,7 +4,8 @@
 
 # Fixes python/gsutil bug - https://github.com/GoogleCloudPlatform/gsutil/issues/961
 # Ensure brew install python@3.7
-export CLOUDSDK_PYTHON=/usr/local/opt/python@3.7/bin/python3
+#export CLOUDSDK_PYTHON=/usr/local/opt/python@3.7/bin/python3
+export CLOUDSDK_PYTHON=/usr/local/bin/python3
 
 # ensure right project settings
 gcloud config set project cjbarker-website-1292

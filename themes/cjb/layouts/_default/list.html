@@ -10,7 +10,7 @@
 <body class="landing">
 
   <div id="page-wrapper">
-    {{ block "menu" . }}{{partial "menu.html" . }}{{ end }} 
+    {{ block "menu" . }}{{partial "menu.html" . }}{{ end }}
 
     <article id="main">
         <header>
@@ -27,7 +27,7 @@
   {{ range (where .Data.Pages "Section" "!=" "") }}
   <li>
     <span class="date">{{ .Date.Format "2006 January 2" }}: </span>
-    <a href="{{ .URL }}">{{ .Title }} {{ .Description }}</a>
+    <a href="{{ .Permalink }}">{{ .Title }} {{ .Description }}</a>
   </li>
   {{ end }}
 </ul>
