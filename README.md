@@ -10,6 +10,7 @@ hugo new blog/my-new-post.md
 ## Testing
 ```bash
 hugo server --bind 0.0.0.0 --port 8000 --buildFuture --log --logFile port800log
+hugo server --bind 0.0.0.0 --port 8000 --buildFuture --verbose
 ```
 
 ## Deployment
