@@ -5,7 +5,7 @@ type = "blog"
 layout = "single"
 +++
 
-<img src="/blog/vince-vaughn-stock-photo.jpg" align="right"Vincen Vaughn in stock photo of office meeting" height="40%" width="40%">
+<img src="/blog/vince-vaughn-stock-photo.jpg" align="right" alt="Vince Vaughn in stock photo of office meeting" height="40%" width="40%">
 
 Corporate America and many workplaces in general run rampant with a culture of meetings.
 
