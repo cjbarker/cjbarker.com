@@ -15,11 +15,12 @@ As a software executive in a leadership position, CJ  still likes to roll up his
 
 I have worn a lot of different hats over the years.  My experience ranges from developing commercial security software to site reliability engineering for a massive media company scaling to hundrds of millions of customers.  You can learn more on [**LinkedIn**](https://www.linkedin.com/in/cjbarkbark/).
 
+* Artificial Intelligence inclusive of GenAI (LLM, RAG, Multi-Modal media generation & analysis, Prompt Engineering, Evals)
+* Machine Learning (Supervised & Unsupervised) via Python, Scikit-learn and TensorFlow, MLOps
 * Cloud Computing integration across AWS and GCP – IaaS, PaaS, DBaaS and FaaS
 * Java, Python, BASH, JavaScript, Go, C/C++, PHP, SQL, XML, HTML
 * Cassandra, MongoDB, Oracle, MySQL, SQL-Svr, Redis, DynamoDB, Apache Hadoop
 * Jenkins, GitLab CI, Maven, Gradle, Ant, GNU Autotools, Linux Packaging
 * Virtualization via Docker, VMware EXS Server &amp; Workstation
 * Numerous Network &amp; Security Protocols, Source Configuration Mgmt.
-* Machine Learning via Python, Scikit-learn and TensorFlow
 * InfoSec: appsec, secure coding, threat modeling, recon, static/dynamic analysis &amp; pen testing
