@@ -1,8 +1,8 @@
 +++
 type = "single"
 title = "About"
-description = "Father, technologist, drummer"
-tags = ["about", "father", "who"]
+description = "Husband, father, technologist, drummer"
+tags = ["about", "husband", "father", "who"]
 +++
 
 
@@ -10,7 +10,7 @@ tags = ["about", "father", "who"]
 
 <img style="width: auto; height: 100%; float: right; margin: 8px; border-radius: 8px;"  src="/lego_cj.jpg" alt="Lego (non-action) figure CJ" width="350" />
 
-First and foremost, CJ is a father.
+First and foremost, CJ is a husband and a father.
 
 He is also a technologist, software developer & architect,
 and manager, who is enthusiastic about solving business needs at scale across a variety of industries such as
